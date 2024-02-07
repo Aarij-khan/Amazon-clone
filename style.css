@@ -1,0 +1,459 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(253, 210, 217),rgba(170, 158, 158, 0.568));
+ 
+}
+/* deliver design start */
+.deliver{
+    display: flex;
+    position: relative;
+    right:1px;
+    top: 15px;
+    color: white;
+    padding: 5px;
+
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+}
+/* navbar design */
+#nav-bar{
+    background-color: black;
+    display: flex;
+
+}
+/* navbar end */
+
+
+
+
+.deliver>i{
+    position: relative;
+    top: 13px;
+    right: 5px;
+    
+}
+.deliver>h5{
+    font-size: 10pt;
+}
+#space{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* end */
+
+/* image set start */
+#image-set{
+    margin-left: 5px;
+    
+}
+#image-set:hover{
+    border: 1.5px solid white;
+}
+/* image set end */
+
+/* search box start */
+#search-box{
+    height: 37px;
+    width: 600px;
+    margin-left: 30px;
+    border-radius: 5px;
+
+}
+#butt{
+    height:37px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: orange;
+    
+}
+#butt:hover{
+    border : 1px solid white;
+}
+/* search box end */
+
+/* EN button start */
+#select{
+    color :white;
+    background-color: transparent;
+    border: none;
+}
+#div1{
+    position: relative;
+    left: 15px;
+    top: 1px;
+}
+/* end */
+
+/* next button */
+#div2{
+    padding: 4px;
+    font-weight: bold;
+    margin-top: 8px;
+    
+}
+#div2:hover{
+    border: 1.5px solid white;
+}
+#select1{
+    color :white;
+    background-color: transparent;
+    border: none;
+  
+}
+#small{
+    font-size: 10pt;
+    line-height: 2px;
+    color: white;
+    padding: 2px;
+    
+}
+/* end */
+
+/* cart and return button starts */
+.div3{
+    color: white;
+    padding: 2px;
+    margin-top: 8px;
+    margin-left: 30px;
+
+}
+.div4{
+    display: flex;
+    color: white;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 60px;
+  
+
+}
+.div3:hover{
+    border: 1px solid white;
+}
+.div4:hover{
+    border: 1px solid white;
+}
+/* end */
+
+/* bot-navbar start */
+
+
+
+
+#main2{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 30px;
+    color: white;
+    gap: 30px;
+}
+#flex1{
+    display: flex;
+    padding: 5px;
+}
+#side{
+    margin-left: 4px;
+
+}
+/* end */
+
+/* hero image start */
+#hero-image{
+    background-image: url(hero.jpg);
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+
+}
+/* end */
+
+/* parent card-section start  */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 400px;
+    /* width: 1300px; */
+}
+/* end  */
+
+
+/* first  box */
+#outer1{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image1{
+    background-image: url(./frok.jpg);
+    background-size: cover;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent1{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+
+/* second box start */
+#outer2{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image2{
+    background-image: url(./img2.png);
+    background-size: cover;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent2{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+/* box 3 start */
+#outer3{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image3{
+    background-image: url(./img6.jpg);
+    background-size: cover;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent3{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+/* box 4 start */
+#outer4{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image4{
+    background-image: url(./box4.png);
+    background-size: cover;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent4{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+
+/* parent 2 card-section start  */
+#center{
+    margin-top: 10px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+
+}
+/* end  */
+
+
+
+/* box 5 start */
+#outer5{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image5{
+    background-image: url(./img5.jpg);
+    background-size: contain;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent5{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+
+/* box 6 start */
+#outer6{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image6{
+    background-image: url(./img4.jpg);
+    background-size: cover;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent6{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+/* box 7 start */
+#outer7{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image7{
+    background-image: url(./box7.png);
+    background-size: cover;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent7{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+/* box 8 start */
+#outer8{
+    background-color: white;
+    height: 380px;
+    width:  300px;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    
+
+}
+#image8{
+    background-image: url(./box8.png);
+    background-size: cover;
+    height: 290px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+#cent8{
+    font-size: 12pt;
+    position: relative;
+    top: 290px;
+   
+}
+/* end */
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(27, 27, 73);
+    color: white;
+    padding: 10px;
+    width: 1350px;
+    
+    
+    
+}
+/* footer media query */
+@media screen and (max-width:430px) {
+.main3{
+       height:900px ;
+}
+
+#footer-2{
+   position: relative;
+   top: 300px;
+    margin-top: 20px;
+}
+#footer-1{
+   position: relative;
+   left: 350px;
+}
+#footer-3{
+    position: relative;
+    top: 580px;
+    right:450px ;
+}
+}
+/* end */
+/* boxes media query */
+@media screen and (max-width:430px) {
+    .card-section2{
+                   display: flex;
+                   flex-flow: column wrap;
+
+    }
+    
+}
+
+
+    
+    
+
+    
